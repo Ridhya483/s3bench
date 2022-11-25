@@ -1,0 +1,61 @@
+  Operation       Throughput      RPS     TTFB    
+
+
+IO Tests for Object Size: 4Kb  Samples: 1000  Clients: 1
+Iteration :  1
+  Write            0.010        2.469    0.405       
+  Read             0.007        1.743    0.533       
+Iteration :  2
+  Write            0.010        2.470    0.405       
+  Read             0.007        1.743    0.533       
+Iteration :  3
+  Write            0.010        2.469    0.405       
+  Read             0.007        1.743    0.533       
+
+
+IO Tests for Object Size: 4Kb  Samples: 1000  Clients: 5
+Iteration :  1
+  Write            0.046        11.802    0.423       
+  Read             0.034        8.645    0.537       
+Iteration :  2
+  Write            0.047        11.918    0.419       
+  Read             0.034        8.653    0.537       
+Iteration :  3
+  Write            0.047        11.933    0.418       
+  Read             0.034        8.621    0.539       
+
+
+IO Tests for Object Size: 4Kb  Samples: 1000  Clients: 10
+Iteration :  1
+  Write            0.089        22.879    0.435       
+  Read             0.065        16.543    0.562       
+Iteration :  2
+  Write            0.089        22.826    0.437       
+  Read             0.065        16.517    0.564       
+Iteration :  3
+  Write            0.090        22.927    0.434       
+  Read             0.065        16.556    0.562       
+
+
+IO Tests for Object Size: 4Kb  Samples: 1000  Clients: 25
+Iteration :  1
+  Write            0.084        21.490    1.156       
+  Read             0.064        16.448    1.472       
+Iteration :  2
+  Write            0.084        21.619    1.151       
+  Read             0.064        16.409    1.479       
+Iteration :  3
+  Write            0.083        21.313    1.165       
+  Read             0.065        16.722    1.447       
+
+
+IO Tests for Object Size: 4Kb  Samples: 1000  Clients: 50
+Iteration :  1
+  Write            0.046        11.880    4.189       
+  Read             0.037        9.486    5.204       
+Iteration :  2
+  Write            0.044        11.293    4.401       
+  Read             0.035        9.027    5.459       
+Iteration :  3
+  Write            0.044        11.273    4.410       
+  Read             0.035        9.074    5.443       
