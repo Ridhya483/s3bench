@@ -18,20 +18,20 @@ SECRET_KEY="$(grep 'secret_key' s3user.txt | cut -d '"' -f 4)"
 #echo $ACCESS_KEY
 #echo $SECRET_KEY
 BUCKET="dragonbucket"
-echo $BUCKET
+#echo $BUCKET
 # ======================================================================================================
 
 # EXTRACT ENDPOINT USING IFCONFIG (ETH0)
 IP="$(ifconfig | grep 'inet' | head -n 1 | cut -c9- | cut -d ' ' -f 2)"
 ENDPOINT="http://$IP:8000"
-echo $ENDPOINT
+#echo $ENDPOINT
 
 # ======================================================================================================
 
 # DEFINE WORKLOAD SIZE AND LOOP COUNT (ITERATIONS FOR EACH WORKLOAD SIZE)
-OBJ_SIZE=("128Mb" "128Mb" "128Mb" "128Mb" "128Mb" "128Mb")
-SAMPLES=(500 500 500 500 500 500)
-CLIENTS=(10 50 100 250 500 1000)
+OBJ_SIZE=("1Mb" "1Mb" "1Mb" "1Mb" "1Mb")
+SAMPLES=(100 100 100 100 100)
+CLIENTS=(10 20 25 30 50)
 LOOP_COUNT=3
 ARR_SIZE=${#OBJ_SIZE[*]}
 
@@ -63,7 +63,7 @@ echo "  Operation       Throughput      RPS     TTFB    " > perf-reports/$FILE_N
 for ((i=0;i<$ARR_SIZE;i++));
 do
         echo -e  "\n\nIO Tests for Object Size:" ${OBJ_SIZE[i]} " Samples:" ${SAMPLES[i]} " Clients:" ${CLIENTS[i]}  >>  perf-reports/$FILE_NAME.log
-        echo "IO Tests for Object Size :" ${OBJ_SIZE[i]} #display in terminal
+        echo "IO Tests for Object Size :" ${OBJ_SIZE[i]} " Samples:" ${SAMPLES[i]} " Clients:" ${CLIENTS[i]} #display in terminal
         for ((j=1;j<=$LOOP_COUNT;j++));
         do
                 echo "Iteration : " $j >>  perf-reports/$FILE_NAME.log
@@ -85,8 +85,8 @@ do
 		echo "  Write            $WRITE_THROUGHPUT        $WRITE_RPS    $WRITE_TTFB       " >>  perf-reports/$FILE_NAME.log
 		echo "  Read             $READ_THROUGHPUT        $READ_RPS    $READ_TTFB       " >>  perf-reports/$FILE_NAME.log
 
-		grep 'Delete Objs' tmp.log > del.log
-		grep -o -E '[0-9]+' del.log > del1.log
+		#grep 'Delete Objs' tmp.log > del.log
+		#grep -o -E '[0-9]+' del.log > del1.log
 
                 
 
@@ -94,3 +94,13 @@ do
                 echo "Completed!!" #display in terminal
         done
 done
+
+# ==========================================================================================================
+# CLEANING TEMMP FILES 
+rm -f init_run.log
+rm -f throughput.log
+rm -f RPS.log
+rm -f ttfb.log
+rm -f tmp.log
+
+# ==========================================================================================================
