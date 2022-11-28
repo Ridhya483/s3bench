@@ -40,7 +40,7 @@ b) If building for MOTR
 ```
 cd $CORTX_RGW/build
 ```
-Change the ```OBJ_SIZE``` , ```SAMPLES``` , ```CLIENTS``` and ```LOOP_COUNT``` accordingly.  
+Change the ```OBJ_SIZE``` , ```SAMPLES``` , ```CLIENTS``` and ```LOOP_COUNT``` accordingly (```SAMPLES[I]```>```CLIENTS[I]```)
 
 Change file permissions 
 ```
