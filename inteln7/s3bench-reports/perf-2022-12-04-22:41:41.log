@@ -1,0 +1,359 @@
+  Operation       Throughput      RPS     TTFB    
+
+
+IO Tests for Object Size: 4Kb  Samples: 1500  Clients: 10
+Iteration :  1
+  Write            5.221        1336.601    0.007       
+  Read             0.918        234.976    0.003       
+Iteration :  2
+  Write            6.023        1541.968    0.006       
+  Read             0.905        231.556    0.004       
+Iteration :  3
+  Write            6.029        1543.405    0.006       
+  Read             0.915        234.167    0.003       
+
+
+IO Tests for Object Size: 4Kb  Samples: 1500  Clients: 20
+Iteration :  1
+  Write            6.898        1765.987    0.011       
+  Read             1.828        467.888    0.004       
+Iteration :  2
+  Write            6.943        1777.433    0.011       
+  Read             1.821        466.214    0.004       
+Iteration :  3
+  Write            6.956        1780.792    0.011       
+  Read             1.824        467.022    0.004       
+
+
+IO Tests for Object Size: 4Kb  Samples: 1500  Clients: 30
+Iteration :  1
+  Write            7.647        1957.521    0.015       
+  Read             2.770        709.023    0.005       
+Iteration :  2
+  Write            7.498        1919.511    0.015       
+  Read             2.753        704.737    0.005       
+Iteration :  3
+  Write            7.861        2012.408    0.015       
+  Read             2.784        712.583    0.005       
+
+
+IO Tests for Object Size: 4Kb  Samples: 1500  Clients: 50
+Iteration :  1
+  Write            3.134        802.423    0.062       
+  Read             3.872        991.142    0.016       
+Iteration :  2
+  Write            1.540        394.246    0.126       
+  Read             2.917        746.667    0.032       
+Iteration :  3
+  Write            1.949        499.062    0.099       
+  Read             4.548        1164.364    0.009       
+
+
+IO Tests for Object Size: 4Kb  Samples: 1500  Clients: 100
+Iteration :  1
+  Write            0.285        72.935    1.369       
+  Read             0.242        61.980    1.570       
+Iteration :  2
+  Write            0.316        80.953    1.230       
+  Read             0.263        67.370    1.440       
+Iteration :  3
+  Write            0.285        73.063    1.362       
+  Read             0.236        60.330    1.616       
+
+
+IO Tests for Object Size: 4Kb  Samples: 1500  Clients: 250
+Iteration :  1
+  Write            0.062        15.930    15.491       
+  Read             0.053        13.559    18.153       
+Iteration :  2
+  Write            0.064        16.405    15.062       
+  Read             0.051        13.085    18.960       
+Iteration :  3
+  Write            0.064        16.498    14.932       
+  Read             0.049        12.611    19.665       
+
+
+IO Tests for Object Size: 4Kb  Samples: 1500  Clients: 500
+Iteration :  1
+  Write            0.031        7.952    61.751       
+  Read             0.024        6.270    78.036       
+Iteration :  2
+  Write            0.030        7.664    63.862       
+  Read             0.024        6.162    79.392       
+Iteration :  3
+  Write            0.032        8.115    60.324       
+  Read             0.025        6.370    76.735       
+
+
+IO Tests for Object Size: 4Kb  Samples: 1500  Clients: 750
+Iteration :  1
+  Write            0.025        6.473    81.838       
+  Read             0.022        5.690    100.045       
+Iteration :  2
+  Write            0.026        6.601    84.038       
+  Read             0.020        5.060    100.385       
+Iteration :  3
+  Write            0.032        8.219    80.475       
+  Read             0.018        4.625    102.281       
+
+
+IO Tests for Object Size: 4Kb  Samples: 1500  Clients: 1000
+Iteration :  1
+  Write            0.032        8.142    80.875       
+  Read             0.029        7.318    85.093       
+Iteration :  2
+  Write            0.028        7.181    85.122       
+  Read             0.019        4.894    88.061       
+Iteration :  3
+  Write            0.031        7.854    94.286       
+  Read             0.022        5.689    98.272       
+
+
+IO Tests for Object Size: 4Kb  Samples: 1500  Clients: 1250
+Iteration :  1
+  Write            0.032        8.299    78.842       
+  Read             0.024        6.232    92.621       
+Iteration :  2
+  Write            0.034        8.819    87.228       
+  Read             0.024        6.268    103.645       
+Iteration :  3
+  Write            0.033        8.373    89.045       
+  Read             0.023        5.924    76.707       
+
+
+IO Tests for Object Size: 1Mb  Samples: 1500  Clients: 10
+Iteration :  1
+  Write            848.949        848.949    0.012       
+  Read             987.593        987.593    0.010       
+Iteration :  2
+  Write            882.883        882.883    0.011       
+  Read             1033.077        1033.077    0.009       
+Iteration :  3
+  Write            867.853        867.853    0.011       
+  Read             1020.304        1020.304    0.009       
+
+
+IO Tests for Object Size: 1Mb  Samples: 1500  Clients: 20
+Iteration :  1
+  Write            1047.761        1047.761    0.019       
+  Read             1229.231        1229.231    0.016       
+Iteration :  2
+  Write            1044.617        1044.617    0.019       
+  Read             1218.782        1218.782    0.016       
+Iteration :  3
+  Write            1008.947        1008.947    0.020       
+  Read             1096.265        1096.265    0.018       
+
+
+IO Tests for Object Size: 1Mb  Samples: 1500  Clients: 30
+Iteration :  1
+  Write            1067.583        1067.583    0.028       
+  Read             705.648        705.648    0.042       
+Iteration :  2
+  Write            909.854        909.854    0.033       
+  Read             947.651        947.651    0.031       
+Iteration :  3
+  Write            1013.536        1013.536    0.029       
+  Read             1072.978        1072.978    0.027       
+
+
+IO Tests for Object Size: 1Mb  Samples: 1500  Clients: 50
+Iteration :  1
+  Write            252.323        252.323    0.196       
+  Read             160.498        160.498    0.310       
+Iteration :  2
+  Write            317.623        317.623    0.156       
+  Read             168.874        168.874    0.295       
+Iteration :  3
+  Write            445.975        445.975    0.111       
+  Read             138.742        138.742    0.360       
+
+
+IO Tests for Object Size: 1Mb  Samples: 1500  Clients: 100
+Iteration :  1
+  Write            89.753        89.753    1.098       
+  Read             63.846        63.846    1.563       
+Iteration :  2
+  Write            70.336        70.336    1.411       
+  Read             63.872        63.872    1.557       
+Iteration :  3
+  Write            76.288        76.288    1.302       
+  Read             69.620        69.620    1.423       
+
+
+IO Tests for Object Size: 1Mb  Samples: 1500  Clients: 250
+Iteration :  1
+  Write            14.656        14.656    16.751       
+  Read             12.006        12.006    20.716       
+Iteration :  2
+  Write            15.118        15.118    16.273       
+  Read             12.071        12.071    20.450       
+Iteration :  3
+  Write            14.743        14.743    16.775       
+  Read             11.336        11.336    21.801       
+
+
+IO Tests for Object Size: 1Mb  Samples: 1500  Clients: 500
+Iteration :  1
+  Write            6.923        6.923    70.145       
+  Read             5.775        5.775    85.813       
+Iteration :  2
+  Write            6.988        6.988    70.349       
+  Read             5.918        5.918    82.871       
+Iteration :  3
+  Write            7.287        7.287    66.104       
+  Read             5.923        5.923    82.796       
+
+
+IO Tests for Object Size: 1Mb  Samples: 1500  Clients: 750
+Iteration :  1
+  Write            6.624        6.624    89.557       
+  Read             5.293        5.293    97.504       
+Iteration :  2
+  Write            6.527        6.527    82.457       
+  Read             4.858        4.858    112.485       
+Iteration :  3
+  Write            6.634        6.634    85.398       
+  Read             4.894        4.894    108.405       
+
+
+IO Tests for Object Size: 1Mb  Samples: 1500  Clients: 1000
+Iteration :  1
+  Write            7.271        7.271    103.148       
+  Read             4.766        4.766    98.087       
+Iteration :  2
+  Write            8.007        8.007    92.353       
+  Read             7.611        7.611    82.082       
+Iteration :  3
+  Write            8.038        8.038    92.564       
+  Read             4.245        4.245    94.021       
+
+
+IO Tests for Object Size: 1Mb  Samples: 1500  Clients: 1250
+Iteration :  1
+  Write            7.714        7.714    100.341       
+  Read             5.051        5.051    93.924       
+Iteration :  2
+  Write            8.185        8.185    86.538       
+  Read             5.378        5.378    101.952       
+Iteration :  3
+  Write            8.246        8.246    85.272       
+  Read             2.640        2.640    82.687       
+
+
+IO Tests for Object Size: 4Mb  Samples: 1500  Clients: 10
+Iteration :  1
+  Write            1014.973        253.743    0.039       
+  Read             1747.374        436.843    0.021       
+Iteration :  2
+  Write            1004.348        251.087    0.040       
+  Read             1768.829        442.207    0.021       
+Iteration :  3
+  Write            1016.335        254.084    0.039       
+  Read             1717.780        429.445    0.022       
+
+
+IO Tests for Object Size: 4Mb  Samples: 1500  Clients: 20
+Iteration :  1
+  Write            370.546        92.637    0.180       
+  Read             2037.456        509.364    0.031       
+Iteration :  2
+  Write            687.623        171.906    0.116       
+  Read             1798.953        449.738    0.043       
+Iteration :  3
+  Write            1017.606        254.401    0.078       
+  Read             1711.004        427.751    0.045       
+
+
+IO Tests for Object Size: 4Mb  Samples: 1500  Clients: 30
+Iteration :  1
+  Write            452.438        113.109    0.264       
+  Read             1475.644        368.911    0.079       
+Iteration :  2
+  Write            970.850        242.712    0.122       
+  Read             1613.720        403.430    0.072       
+Iteration :  3
+  Write            977.051        244.263    0.122       
+  Read             1637.757        409.439    0.071       
+
+
+IO Tests for Object Size: 4Mb  Samples: 1500  Clients: 50
+Iteration :  1
+  Write            380.937        95.234    0.323       
+  Read             336.654        84.164    0.565       
+Iteration :  2
+  Write            748.284        187.071    0.263       
+  Read             367.424        91.856    0.541       
+Iteration :  3
+  Write            689.944        172.486    0.286       
+  Read             364.054        91.013    0.545       
+
+
+IO Tests for Object Size: 4Mb  Samples: 1500  Clients: 100
+Iteration :  1
+  Write            247.303        61.826    1.603       
+  Read             198.597        49.649    2.001       
+Iteration :  2
+  Write            250.435        62.609    1.575       
+  Read             168.573        42.143    2.352       
+Iteration :  3
+  Write            225.180        56.295    1.764       
+  Read             186.879        46.720    2.132       
+
+
+IO Tests for Object Size: 4Mb  Samples: 1500  Clients: 250
+Iteration :  1
+  Write            42.362        10.590    23.125       
+  Read             36.116        9.029    27.358       
+Iteration :  2
+  Write            44.145        11.036    22.253       
+  Read             36.767        9.192    26.893       
+Iteration :  3
+  Write            42.261        10.565    23.240       
+  Read             35.551        8.888    27.910       
+
+
+IO Tests for Object Size: 4Mb  Samples: 1500  Clients: 500
+Iteration :  1
+  Write            19.739        4.935    98.391       
+  Read             17.240        4.310    113.446       
+Iteration :  2
+  Write            20.261        5.065    94.909       
+  Read             17.714        4.429    110.230       
+Iteration :  3
+  Write            19.907        4.977    97.387       
+  Read             17.552        4.388    111.566       
+
+
+IO Tests for Object Size: 4Mb  Samples: 1500  Clients: 750
+Iteration :  1
+  Write            21.747        5.437    125.597       
+  Read             17.956        4.489    112.072       
+Iteration :  2
+  Write            21.073        5.268    128.228       
+  Read             15.380        3.845    125.951       
+Iteration :  3
+  Write            21.083        5.271    129.481       
+  Read             16.614        4.153    120.859       
+
+
+IO Tests for Object Size: 4Mb  Samples: 1500  Clients: 1000
+Iteration :  1
+  Write            21.755        5.439    136.967       
+  Read             20.612        5.153    132.181       
+Iteration :  2
+  Write            22.724        5.681    134.876       
+  Read             19.612        4.903    132.641       
+Iteration :  3
+  Write            22.437        5.609    132.204       
+  Read             20.754        5.189    123.692       
+
+
+IO Tests for Object Size: 4Mb  Samples: 1500  Clients: 1250
+Iteration :  1
+  Write            22.622        5.655    137.062       
+  Read             18.586        4.646    104.994       
+Iteration :  2
+  Write            21.191        5.298    141.601       
+  Read             13.960        3.490    116.489       
+Iteration :  3

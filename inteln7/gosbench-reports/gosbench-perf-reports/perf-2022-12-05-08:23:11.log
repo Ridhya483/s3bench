@@ -1,0 +1,21 @@
+  Operation       Throughput(Bytes/s)      Latency  
+
+
+IO Tests for Object Size: 4Kb  Samples: 100  Clients: 10
+Iteration :  1
+  Write              1835949.503105           21.670000       
+
+
+IO Tests for Object Size: 4Kb  Samples: 100  Clients: 10
+Iteration :  1
+  Read              1085795.289103           36.270000       
+
+
+IO Tests for Object Size: 4Kb  Samples: 100  Clients: 30
+Iteration :  1
+  Write              7192385.693790           14.920000       
+
+
+IO Tests for Object Size: 4Kb  Samples: 100  Clients: 30
+Iteration :  1
+  Read              2935547.951989           36.810000       

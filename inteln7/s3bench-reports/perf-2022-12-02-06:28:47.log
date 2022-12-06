@@ -1,0 +1,109 @@
+  Operation       Throughput      RPS     TTFB    
+
+
+IO Tests for Object Size: 4Kb  Samples: 2000  Clients: 10
+Iteration :  1
+  Write            5.909        1512.802    0.007       
+  Read             0.903        231.217    0.003       
+Iteration :  2
+  Write            5.909        1512.743    0.007       
+  Read             0.908        232.498    0.003       
+Iteration :  3
+  Write            5.892        1508.344    0.007       
+  Read             0.907        232.205    0.004       
+
+
+IO Tests for Object Size: 4Kb  Samples: 2000  Clients: 30
+Iteration :  1
+  Write            7.805        1998.095    0.015       
+  Read             2.754        704.941    0.005       
+Iteration :  2
+  Write            7.637        1955.031    0.015       
+  Read             2.754        704.950    0.004       
+Iteration :  3
+  Write            7.613        1948.870    0.015       
+  Read             2.745        702.694    0.005       
+
+
+IO Tests for Object Size: 4Kb  Samples: 2000  Clients: 50
+Iteration :  1
+  Write            3.561        911.647    0.054       
+  Read             4.474        1145.363    0.009       
+Iteration :  2
+  Write            3.450        883.123    0.056       
+  Read             4.506        1153.426    0.009       
+Iteration :  3
+  Write            3.817        977.097    0.050       
+  Read             4.297        1100.070    0.011       
+
+
+IO Tests for Object Size: 4Kb  Samples: 2000  Clients: 100
+Iteration :  1
+  Write            0.313        80.151    1.244       
+  Read             0.252        64.636    1.497       
+Iteration :  2
+  Write            0.323        82.600    1.204       
+  Read             0.256        65.498    1.488       
+Iteration :  3
+  Write            0.311        79.702    1.251       
+  Read             0.321        82.140    1.175       
+
+
+IO Tests for Object Size: 4Kb  Samples: 2000  Clients: 250
+Iteration :  1
+  Write            0.062        15.904    15.588       
+  Read             0.052        13.283    18.630       
+Iteration :  2
+  Write            0.065        16.629    14.850       
+  Read             0.049        12.609    19.627       
+Iteration :  3
+  Write            0.064        16.464    15.029       
+  Read             0.049        12.594    19.681       
+
+
+IO Tests for Object Size: 4Kb  Samples: 2000  Clients: 500
+Iteration :  1
+  Write            0.031        7.821    63.159       
+  Read             0.024        6.103    80.651       
+Iteration :  2
+  Write            0.030        7.732    63.620       
+  Read             0.024        6.101    81.042       
+Iteration :  3
+  Write            0.030        7.619    64.001       
+  Read             0.024        6.042    81.836       
+
+
+IO Tests for Object Size: 4Kb  Samples: 2000  Clients: 750
+Iteration :  1
+  Write            0.027        6.987    81.484       
+  Read             0.020        5.027    94.355       
+Iteration :  2
+  Write            0.028        7.125    73.875       
+  Read             0.019        4.960    97.155       
+Iteration :  3
+  Write            0.031        7.986    80.487       
+  Read             0.022        5.669    95.601       
+
+
+IO Tests for Object Size: 4Kb  Samples: 2000  Clients: 1000
+Iteration :  1
+  Write            0.031        7.919    95.918       
+  Read             0.019        4.826    101.376       
+Iteration :  2
+  Write            0.037        9.416    77.955       
+  Read             0.026        6.660    78.931       
+Iteration :  3
+  Write            0.031        8.058    84.009       
+  Read             0.024        6.095    86.818       
+
+
+IO Tests for Object Size: 4Kb  Samples: 2000  Clients: 1250
+Iteration :  1
+  Write            0.033        8.503    77.656       
+  Read             0.012        2.989    89.731       
+Iteration :  2
+  Write            0.035        8.853    83.550       
+  Read             0.025        6.419    73.676       
+Iteration :  3
+  Write            0.039        10.010    67.778       
+  Read             0.022        5.530    85.439       
