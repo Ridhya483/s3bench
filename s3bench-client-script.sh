@@ -38,6 +38,7 @@ IP="$(ifconfig | grep 'inet' | head -n 1 | cut -c9- | cut -d ' ' -f 2)"
 # ======================================================================================================
 
 # DEFINE WORKLOAD SIZE AND LOOP COUNT (ITERATIONS FOR EACH WORKLOAD SIZE)
+# use this workload only for finding the best client count. Can change the workload accordingly after that.
 #OBJ_SIZE=("4Kb" "4Kb" "4Kb" "1Mb" "1Mb" "1Mb")
 #SAMPLES=(200 200 200 200 200 200)
 #CLIENTS=(10 30 50 10 30 50)
