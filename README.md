@@ -7,7 +7,7 @@
 
 # Prerequisites 
 Install s3bench on your machine. Check https://github.com/Seagate/s3bench for the steps.
-
+Add S3BENCH_PATH to ~/.bashrc
 
 
 # How to use 
